@@ -6,5 +6,9 @@ c = int(input('Digite o terceiro valor: '))
 
 if a > b and a > c:
     print('O maior número é: {}'.format(a))
-else:
+elif b > a and b > c:
     print('O maior número é: {}'.format(b))
+else:
+    print('O maior número é: {}'.format(c))
+
+print('Fim do programinha')
